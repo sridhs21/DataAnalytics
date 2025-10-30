@@ -3,7 +3,7 @@
 ####################################
 
 # read dataset
-abalone.data <- read.csv("C:/Users/swaro/OneDrive/Desktop/Classes/Data Analytics/DataAnalytics/Lab3/abalone_dataset.csv")
+abalone.data <- read.csv("C:/Users/swaro/OneDrive/Desktop/Classes/Data Analytics/DataAnalytics/Lab 3/abalone_dataset.csv")
 
 ## add new column age.group with 3 values based on the number of rings 
 abalone.data$age.group <- cut(abalone.data$rings, br=c(0,8,11,35), labels = c("young", 'adult', 'old'))
