@@ -2,7 +2,7 @@ library(readr)
 library(EnvStats)
 
 # set working directory (relative path)
-setwd("C:/Users/swaro/OneDrive/Desktop/Classes/Data Analytics/Lab 1")
+setwd("C:/Users/swaro/OneDrive/Desktop/Classes/Data Analytics/DataAnalytics/Lab 1")
 
 # read data
 epi.data <- read_csv("epi_results_2024_pop_gdp.csv")
